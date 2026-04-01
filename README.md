@@ -1,4 +1,3 @@
-# Kamael-Store-Prototype
 Tugas Pemerograman Mobile 1
 
 # Kamael Store - Prototip Aplikasi Top Up Game
@@ -10,19 +9,19 @@ Kamael Store adalah aplikasi Android berbasis **Jetpack Compose** yang dirancang
 Aplikasi ini mencakup fitur-fitur sesuai dengan indikator tugas:
 
 1.  **Sistem Login & Registrasi**: Alur autentikasi sederhana untuk masuk ke dalam store.
-2.  **Formulir Lengkap (Point 01)**: Input data registrasi menggunakan `OutlinedTextField` (Nama, Email, Password, Konfirmasi Password).
-3.  **Validasi Lanjutan (Point 02)**:
+2.  **Formulir Lengkap**: Input data registrasi menggunakan `OutlinedTextField` (Nama, Email, Password, Konfirmasi Password).
+3.  **Validasi Lanjutan**:
     *   Validasi real-time (pesan error muncul saat mengetik).
     *   Cek format email dan minimal karakter password.
     *   Fitur *Password Match* untuk memastikan keamanan data.
     *   Tombol submit hanya aktif jika semua kriteria validasi terpenuhi.
-4.  **Selection Controls (Point 03)**:
+4.  **Selection Controls**:
     *   **RadioGroup**: Pemilihan Jenis Kelamin.
     *   **Checkbox**: Pemilihan Hobi (dengan validasi minimal 3 pilihan).
-5.  **Spinner & Dialog (Point 04)**:
+5.  **Spinner & Dialog**:
     *   **Custom Spinner**: Menggunakan `ExposedDropdownMenuBox` untuk memilih Tipe Akun (Gamer, Reseller, Member) dan Nominal Top Up.
     *   **Confirmation Dialog**: Alert Dialog muncul untuk konfirmasi sebelum data dikirim (Register & Top Up).
-6.  **Gesture Interaction (Point 05)**:
+6.  **Gesture Interaction**:
     *   Implementasi **Long Press** pada tombol utama untuk memicu aksi tambahan berupa reset/clear form.
 
 ## 🛠️ Teknologi yang Digunakan
